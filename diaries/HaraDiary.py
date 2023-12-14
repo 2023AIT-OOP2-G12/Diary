@@ -9,4 +9,4 @@ class DiaryHara(AbstractDiary):
         return "リーダーになった"
     
     def get_author(self):
-        return "Miyake"
+        return "Hara"
