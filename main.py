@@ -2,12 +2,13 @@ from diaries.DiarySample import DiarySample
 from diaries.MiyakeDiary import DiaryMiyake
 from diaries.InadaDiary import DiaryInada
 from diaries.HaraDiary import DiaryHara
+from diaries.KonisiDiary import KonisiDiary
 from diaries.OzakiDiary import OzakiDiary
 from diaries.kanaiDiary import kanaiDiary
-# ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(),
             DiaryMiyake(),
             DiaryHara(),
+            KonisiDiary(),]
            DiaryInada(),
             OzakiDiary(),
           DiarySample(),]
