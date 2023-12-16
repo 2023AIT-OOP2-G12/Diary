@@ -5,6 +5,7 @@ from diaries.HaraDiary import DiaryHara
 from diaries.KonisiDiary import KonisiDiary
 from diaries.OzakiDiary import OzakiDiary
 from diaries.kanaiDiary import kanaiDiary
+from diaries.MasunagaDiary import MasunagaDiary
 
 diaries = [DiarySample(),
            DiaryMiyake(),
@@ -12,7 +13,8 @@ diaries = [DiarySample(),
            DiaryInada(),
            KonisiDiary(),
            OzakiDiary(),
-           kanaiDiary(),]
+           kanaiDiary(),
+           MasunagaDiary(),]
 
 
 for d in diaries:
